@@ -1,0 +1,112 @@
+{
+  "reports": [
+    {
+      "id": "REP001",
+      "patientName": "John Doe",
+      "doctor": "Dr. Emily Blunt",
+      "date": "2024-03-15",
+      "type": "Blood Test",
+      "status": "Final",
+      "summary": "Everything looks normal. Hemoglobin is slightly on the lower side but within acceptable limits.",
+      "results": [
+        {
+          "parameter": "Hemoglobin",
+          "value": "13.2 g/dL",
+          "range": "13.5-17.5"
+        },
+        {
+          "parameter": "WBC",
+          "value": "6500 /uL",
+          "range": "4500-11000"
+        },
+        {
+          "parameter": "Platelets",
+          "value": "250000 /uL",
+          "range": "150000-450000"
+        }
+      ]
+    },
+    {
+      "id": "REP002",
+      "patientName": "John Doe",
+      "date": "2024-01-10",
+      "type": "X-Ray Chest",
+      "status": "Final",
+      "summary": "No abnormalities detected in the lungs or heart size.",
+      "results": []
+    }
+  ],
+  "appointments": [
+    {
+      "id": "APP001",
+      "doctor": "Dr. Sarah Smith",
+      "specialty": "Cardiology",
+      "date": "2026-03-25",
+      "time": "10:30 AM",
+      "status": "Confirmed",
+      "notes": "Bring previous reports."
+    },
+    {
+      "id": "APP002",
+      "doctor": "Dr. James Wilson",
+      "specialty": "General Physician",
+      "date": "2026-04-02",
+      "time": "02:00 PM",
+      "status": "Scheduled",
+      "notes": "Routine checkup."
+    }
+  ],
+  "vitals": [
+    {
+      "id": "VIT001",
+      "type": "Blood Pressure",
+      "value": "120/80",
+      "unit": "mmHg",
+      "date": "2026-01-20",
+      "level": "Normal"
+    },
+    {
+      "id": "VIT002",
+      "type": "Heart Rate",
+      "value": "72",
+      "unit": "bpm",
+      "date": "2026-01-20",
+      "level": "Normal"
+    },
+    {
+      "id": "VIT003",
+      "type": "Glucose",
+      "value": "145",
+      "unit": "mg/dL",
+      "date": "2026-01-19",
+      "level": "High"
+    }
+  ],
+  "pregnancy": {
+    "currentWeek": 24,
+    "dueDate": "2026-07-15",
+    "status": "Healthy",
+    "timeline": [
+      {
+        "week": 12,
+        "event": "First ultrasound",
+        "status": "Completed"
+      },
+      {
+        "week": 20,
+        "event": "Anatomy scan",
+        "status": "Completed"
+      },
+      {
+        "week": 24,
+        "event": "Glucose screening",
+        "status": "Upcoming"
+      },
+      {
+        "week": 36,
+        "event": "GBS Test",
+        "status": "Pending"
+      }
+    ]
+  }
+}
